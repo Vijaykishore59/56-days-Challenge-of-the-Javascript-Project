@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:#f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    background-color: white;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+h1{
+    font-size:35px;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+h1 {
+    color: #2C3E50;
+}
+
+p {
+    color: #6B7280;
+}
+
+input {
+    border: 2px solid #D1D5DB;
+    background-color: #FFFFFF;
+}
+
+button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #2563EB;
+}
+.side-heading {
+    font-size:18px;
+    margin-top:0;
+}
+#guessInput{
+    width:300px;
+    height:40px;
+    padding:5px;
+    font-size: 18px;
+    margin-bottom:14px;
+    border: 1px solid #D1D5DB;
+    border-radius:8px;
+}
+#checkBtn{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#checkBtn:hover{
+   background-color: #2563EB;
+}
+/* Message */
+#message{
+    font-size: 18px;
+    font-weight: 600;
+    color: #374151;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Attempts Left */
+.attempts{
+    font-size: 16px;
+    color: #4B5563;
+    margin-bottom: 10px;
+}
+
+#attempts{
+    font-weight: bold;
+    color: #DC2626;
+}
+
+/* Previous Guesses */
+.previous-guesses{
+    font-size: 16px;
+    color: #4B5563;
+}
+
+#previousGuesses{
+    font-weight: bold;
+    color: #2563EB;
+}
