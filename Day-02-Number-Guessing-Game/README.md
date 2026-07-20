@@ -1,6 +1,6 @@
-# 🎯 Day 03 - Number Guessing Game
+# 🎯 Day 02 - Number Guessing Game
 
-Welcome to **Day 03** of my **56 Days Coding Challenge**.
+Welcome to **Day 02** of my **56 Days Coding Challenge**.
 
 In this project, I built a fully functional **Number Guessing Game** using **HTML, CSS, and JavaScript**. This project focuses on improving JavaScript fundamentals by implementing game logic, DOM manipulation, event handling, input validation, and state management.
 
@@ -69,7 +69,7 @@ This project helped me practice:
 # 📂 Project Structure
 
 ```
-Day-03-Number-Guessing-Game/
+Day-02-Number-Guessing-Game/
 │
 ├── index.html
 ├── style.css
@@ -90,7 +90,7 @@ git clone https://github.com/Vijaykishore59/56-days-Challenge-of-the-Javascript-
 ## 2. Navigate to the Project Folder
 
 ```
-Day-03-Number-Guessing-Game
+Day-02-Number-Guessing-Game
 ```
 
 ## 3. Open
@@ -152,13 +152,6 @@ Some features I plan to add in future versions:
 
 ---
 
-# 📷 Screenshots
-
-## Home Screen
-
-*(Add Screenshot Here)*
-
----
 
 # 🤝 Contributing
 
@@ -217,7 +210,7 @@ Visit the main repository to explore more projects as they are added.
 
 **Status:** ✔️ Completed
 
-**Challenge Progress:** **3 / 56 Projects Completed**
+**Challenge Progress:** **2 / 56 Projects Completed**
 
 ---
 
