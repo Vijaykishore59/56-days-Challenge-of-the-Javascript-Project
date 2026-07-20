@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f8fafc;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+.clock-container{
+    width: 430px;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    background-color: #1e293b;
+    text-align: center;
+    padding:35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    transition:.3s ease;
+}
+.clock-container:hover{
+    transform:translateY(-5px);
+}
+h1{
+    font-size:36px;
+    font-weight:700;
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: #f8fafc;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+#time-display{
+font-size:58px;
+font-weight:700;
+letter-spacing:5px;
+margin-top:30px;
+}
+#date-display{
+    margin-top:10px;
+    font-size:25px;
+}
