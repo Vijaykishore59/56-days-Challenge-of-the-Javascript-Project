@@ -4,13 +4,6 @@ A clean and responsive **Digital Clock** built using **HTML, CSS, and JavaScript
 
 ---
 
-## 📸 Preview
-
-> Add a screenshot of your project here.
-
-![Digital Clock Preview](./preview.png)
-
----
 
 ## 🚀 Features
 
