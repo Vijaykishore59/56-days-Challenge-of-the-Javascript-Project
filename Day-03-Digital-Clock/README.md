@@ -1,6 +1,6 @@
 # ⏰ Day 03 - Digital Clock
 
-Welcome to **Day 04** of my **56 Days JavaScript Projects Challenge**.
+Welcome to **Day 03** of my **56 Days JavaScript Projects Challenge**.
 
 In this project, I built a fully functional **Digital Clock** using **HTML, CSS, and JavaScript**. This project focuses on understanding JavaScript's `Date` object, real-time updates using `setInterval()`, DOM manipulation, conditional statements, and responsive UI design.
 
