@@ -222,15 +222,6 @@ https://github.com/Vijaykishore59
 https://www.linkedin.com/in/vijaykishoresunkara/
 
 ---
-# 📈 Challenge Progress
-
-```text
-█□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
-
-Day 01 / 56 Completed
-```
-
----
 
 # 💙 Let's Build Together
 
