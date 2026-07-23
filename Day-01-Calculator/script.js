@@ -1,16 +1,16 @@
 const display=document.getElementById("display");
-const button=document.querySelectorAll("button");
-button.forEach((button)=>{
-    button.addEventListener("click",()=>{
-        const value=button.innerText;
+const buttons=document.querySelectorAll("button");
+buttons.forEach((buttons)=>{
+    buttons.addEventListener("click",()=>{
+        const value=buttons.innerText;
         if(value==="C"){
             display.value="";
         }
         else if(value==="="){
             try{
-                let result=eval(display.value);
-                if(result==Infinity){
-                    display.value="Cannot Divided By 0";
+                let result=eval(display.value)
+                if(result===Infinity){
+                    display.value="Cannot Divided By Zero";
                 }
                 else{
                     display.value=result;
@@ -19,9 +19,9 @@ button.forEach((button)=>{
             catch{
                 display.value="Error";
             }
-
+        
         }
-        else if(value==="⌫"){
+        else if(value=="⌫"){
             display.value=display.value.slice(0,-1);
         }
         else{

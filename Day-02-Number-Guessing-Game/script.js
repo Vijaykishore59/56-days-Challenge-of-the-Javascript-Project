@@ -3,57 +3,52 @@ const btn=document.getElementById("checkBtn");
 const message=document.getElementById("message");
 const attempts=document.getElementById("attempts");
 const previousGuess=document.getElementById("previousGuesses");
-let secretNumber=Math.floor(Math.random()*100)+1; //Math.random takes the decimal values between the 0 to 1
-let attemptsLeft=10
-let previous=[]
-console.log(secretNumber);
+let secretNumber=Math.floor(Math.random()*100)+1;
+let attemptsLeft=10;
+let previous=[];
 function restartGame(){
     secretNumber=Math.floor(Math.random()*100)+1;
     attemptsLeft=10;
-    previous=[]
+    previous=[];
     guessInput.value="";
-    guessInput.focus();
+    guessInput.focus()
     guessInput.disabled=false;
+    btn.innerText="Check Guess";
+    message.innerText="";
     attempts.innerText=attemptsLeft;
     previousGuess.innerText="";
-    message.innerText="";
-    btn.innerText="Check Guess";
-    console.log(secretNumber);
 }
-btn.addEventListener("click", ()=>{
-    if(btn.innerText==="Restart"){
+btn.addEventListener("click",()=>{
+    if(btn.innerText=="Restart"){
         restartGame();
         return;
     }
+    console.log(secretNumber);
     const guess=Number(guessInput.value);
     if(isNaN(guess) || guess<1 || guess>100){
-        message.innerText="Enter the number between the 1 to 100";
+        message.innerText="The number between 1 and 100";
         return;
     }
     previous.push(guess);
-    previousGuess.innerText = previous.join(", ");
-    console.log(guess);
-    console.log(secretNumber);
+    previousGuess.innerText=previous.join(",")
     if(guess===secretNumber){
         message.innerText="🎉 Correct! You Won!";
         btn.innerText="Restart";
         guessInput.disabled=true;
-
     }
     else if(guess<secretNumber){
-        message.innerText="Too low!";
+        message.innerText="Too Low!";
         attemptsLeft--;
         attempts.innerText=attemptsLeft;
-        }
-    else{
-        message.innerText="Too High!"
-        attemptsLeft--;  
+    }
+    else if(guess>secretNumber){
+        message.innerText="Too High!";
+        attemptsLeft--;
         attempts.innerText=attemptsLeft;
     }
-    if(attemptsLeft===0){
-        message.innerText=`😢 Game Over! The secret number was ${secretNumber}`;
+    if(attemptsLeft==0){
+        message.innerText="😢 Game Over! The secret number was ${secretNumber}";
         btn.innerText="Restart";
         guessInput.disabled=true;
-        return;
     }
-});
+})
